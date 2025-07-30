@@ -31,7 +31,7 @@ def create_booking(flight_id: str, passenger_name: str) -> dict:
         "passenger": passenger_name,
         "status": "confirmed"
     }
-
+@mcp.prompt()
 def find_best_flight(budget: float, preferences: str = "economy") -> str:
     """Generate a prompt for finding the best flight within budget"""
     return f"""Please help me find the best flight within a ${budget} budget.
@@ -46,6 +46,7 @@ Please consider:
 
 Use the search_flights tool to find available options and provide a recommendation with reasoning."""
 
+@mcp.prompt()
 def handle_disruption(original_flight: str, reason: str) -> str:
     """Generate a prompt for handling flight disruptions"""
     return f"""A passenger's flight {original_flight} has been disrupted due to: {reason}
