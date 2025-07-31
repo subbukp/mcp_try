@@ -1,0 +1,10 @@
+export CLAUDE_API_KEY=Sk-kkAI-3ade70850bb8f9ec338b1fbbb10c627f5ac38d3b7b2768a211cf6dc6b0bce46bkk_5piecycraob42so7-kk4779c16e
+export GROQ_API_KEY=Sk-kkAI-3ade70850bb8f9ec338b1fbbb10c627f5ac38d3b7b2768a211cf6dc6b0bce46bkk_5piecycraob42so7-kk4779c16e
+export OPENAI_API_BASE=https://kodekey.ai.kodekloud.com/v1
+export AZURE_OPENAI_ENDPOINT=https://kodekey.ai.kodekloud.com/openai
+export OPENAI_API_KEY=Sk-kkAI-3ade70850bb8f9ec338b1fbbb10c627f5ac38d3b7b2768a211cf6dc6b0bce46bkk_5piecycraob42so7-kk4779c16e
+export GROQ_API_BASE=https://kodekey.ai.kodekloud.com
+export AZURE_OPENAI_API_KEY=Sk-kkAI-3ade70850bb8f9ec338b1fbbb10c627f5ac38d3b7b2768a211cf6dc6b0bce46bkk_5piecycraob42so7-kk4779c16e
+export CLAUDE_API_BASE=https://kodekey.ai.kodekloud.com
+
+. "$HOME/.local/bin/env"

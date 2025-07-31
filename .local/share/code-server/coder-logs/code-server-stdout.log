@@ -1,0 +1,27 @@
+[2025-07-31T05:16:25.498Z] info  code-server 4.102.1 47e9d43922b5764e3ead3bbf31d9ad23676604d6
+[2025-07-31T05:16:25.499Z] info  Using user-data-dir /home/lab-user/.local/share/code-server
+[2025-07-31T05:16:25.558Z] info  Using config file /home/lab-user/.config/code-server/config.yaml
+[2025-07-31T05:16:25.558Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-07-31T05:16:25.558Z] info    - Authentication is disabled
+[2025-07-31T05:16:25.558Z] info    - Not serving HTTPS
+[2025-07-31T05:16:25.559Z] info  Session server listening on /home/lab-user/.local/share/code-server/code-server-ipc.sock
+[05:33:20] 
+
+
+
+
+[05:33:20] Extension host agent started.
+[05:33:20] Started initializing default profile extensions in extensions installation folder. file:///home/lab-user/.local/share/code-server/extensions
+[05:33:20] Completed initializing default profile extensions in extensions installation folder. file:///home/lab-user/.local/share/code-server/extensions
+[05:33:26] Extensions added from another source rooveterinaryinc.roo-cline file:///home/lab-user/.local/share/code-server/extensions/extensions.json
+[05:33:50] [192.168.56.213][307ab94f][ManagementConnection] New connection established.
+[05:33:54] [192.168.56.213][998acf2f][ExtensionHostConnection] New connection established.
+[05:33:54] [192.168.56.213][998acf2f][ExtensionHostConnection] <2880> Launched Extension Host Process.
+[05:37:52] [192.168.56.213][a2a7e20c][ManagementConnection] New connection established.
+[05:37:57] [192.168.56.213][3a90c3c5][ExtensionHostConnection] New connection established.
+[05:37:57] [192.168.56.213][3a90c3c5][ExtensionHostConnection] <4463> Launched Extension Host Process.
+[05:39:26] [192.168.56.213][a2a7e20c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:39:26] [192.168.56.213][3a90c3c5][ExtensionHostConnection] <4463> Extension Host Process exited with code: 0, signal: null.
+[05:40:11] [192.168.56.213][9a7a8e8f][ManagementConnection] New connection established.
+[05:40:17] [192.168.56.213][bea5bd82][ExtensionHostConnection] New connection established.
+[05:40:17] [192.168.56.213][bea5bd82][ExtensionHostConnection] <5549> Launched Extension Host Process.

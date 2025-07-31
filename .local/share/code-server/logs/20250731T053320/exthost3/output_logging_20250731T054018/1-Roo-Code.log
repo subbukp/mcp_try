@@ -1,0 +1,9 @@
+roo-cline extension activated - {"publisher":"RooVeterinaryInc","name":"roo-cline","version":"3.22.5","outputChannel":"Roo-Code"}
+Skipping migration of cline_custom_modes.json to custom_modes.json: old file not found
+Skipping migration of cline_mcp_settings.json to mcp_settings.json: old file not found
+No custom_modes.json found, skipping YAML migration
+[auth] Transitioned to logged-out state
+[MDM] No MDM configuration found
+ClineProvider instantiated
+[AutoImport] Checking for settings file at: /home/lab-user/.roo-coder/profiles/default/settings.json
+[AutoImport] Successfully imported settings from /home/lab-user/.roo-coder/profiles/default/settings.json

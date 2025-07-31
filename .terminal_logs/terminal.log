@@ -1,0 +1,1519 @@
+Script started on 2025-07-31 05:40:19+00:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="131" LINES="22"]
+[?2004h
+[1;36m~[0m [1;32m➜[0m  ls
+[?2004lREADME.md  [0m[01;34mcode[0m  [01;34mflight-booking-server[0m  [01;34mmcp-client[0m  [01;34mvenv[0m
+[?2004h
+[1;36m~[0m [1;32m➜[0m  cd mcp-client/
+[?2004l[?2004h
+[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  uv run python cli[K[K[Kbasic_client.py 
+[?2004l🔌 BASIC MCP CLIENT
+========================================
+🎯 Goal: Connect to flight booking server and discover capabilities
+========================================
+✅ Connected to MCP server successfully!
+
+🔧 Available Tools:
+  - search_flights: Search for flights between two airports
+  - create_booking: Create a flight booking
+
+📊 Available Resources:
+  - file://airports/: get_airports
+  - file://airlines/: get_airlines
+
+💬 Available Prompts:
+  - find_best_flight: Generate a prompt for finding the best flight within budget
+  - handle_disruption: Generate a prompt for handling flight disruptions
+
+🎉 Basic client connection successful!
+✨ Server capabilities discovered successfully!
+[?2004h
+[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  cd ..
+[?2004l[?2004h
+[1;36m~[0m [1;32m➜[0m  ls
+[?2004lREADME.md  [0m[01;34mcode[0m  [01;34mflight-booking-server[0m  [01;34mmcp-client[0m  [01;34mvenv[0m
+[?2004h
+[1;36m~[0m [1;32m➜[0m  git status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h
+[1;36m~[0m [1;31m✖[0m git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/lab-user/.git/
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git remote origin [7mhttps://github.com/subbukp/mcp_try.git[27mhttps://github.com/subbukp/mcp_try.git
+[?2004lerror: unknown subcommand: `origin'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m ^[[200~ls ~/.ssh/id_rsa.pub~
+[?2004lbash: $'\E[200~ls': command not found
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m [7mls ~/.ssh/id_rsa.pub[27mls ~/.ssh/id_rsa.pub
+[?2004lls: cannot access '/home/lab-user/.ssh/id_rsa.pub': No such file or directory
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m ls ~/.ssh/id_rsa.pub[1P/.ssh/id_rsa.pub
+[?2004lls: cannot access '/.ssh/id_rsa.pub': No such file or directory
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m [7mssh-keygen -t rsa -b 4096 -C "your_email@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t rsa -b 4096 -C "your_email@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"k"p"s"."q"[1P"1"8"."1"9"9"9"@"g"m"a"i"l"."c"o"m"
+[?2004lGenerating public/private rsa key pair.
+Enter file in which to save the key (/home/lab-user/.ssh/id_rsa): 
+Created directory '/home/lab-user/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/lab-user/.ssh/id_rsa
+Your public key has been saved in /home/lab-user/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:sYi4ST2RZasfrQnJL8EobVAl5bpon5EG9cGRD+XGPgY kps.18.1999@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|  ooo.=.         |
+| . o.*+.         |
+|.  .+E++.        |
+| o.B.==+ o       |
+|..B @.o+S        |
+| =.+.*.+.        |
+|..++. =          |
+|. o o.           |
+|   o             |
++----[SHA256]-----+
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [7mcat ~/.ssh/id_rsa.pub[27mcat ~/.ssh/id_rsa.pub
+[?2004lssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCfN1zSmOIhjy+BhNinXygse5BhFxK9B6ZjwVUxqD6zF/B4nOfrXS5tAVYP/MCkJkhfX4zdZ6+4XUrwedQiXNAPvm55G52aHojKXlOlVblgzNnKnsCRO8xU1b+zPOiggR12q3k8A+AXNfFQgsjEczKd7/FMPnn8boXbN8xtHvdPr2lW4EPjrbH1+BR3KyKIWrZCyhj6kLy9XAx+64GG6zL4QG0bKpmJUJkn/G5Ukd91MC7azaFbprjWEHlVQk+y6qlXIDMlTPUJCabM+mCdMZiufQt84zi2+R7D9BGMBnmCM0dGVxXmfAshS1Ga+42SxnutgJ4ufg5IIXMEpP/86cdo9fffx30WUcDj3bastPRqCimt4rinhu6AEXo+61FFbccP2VBoccHVuV2pPvqgMnwzE8BJUKBgVnrheSvIS8Afp2LRM/hrsAwMtOFEwIiq5KbbcB7hmE782jj7wRs3EN/aAlGe0YN17Hihc+TrHQEF94HP/AaNeJAr/cw38kp+WjE6dHUc3DMG4wDz0ibZuqjvrzB5qdcXvHE+rJptK6BWqYHOfyT8/xW9xTlHb/4TwMv1MzlFL/oo/DVCGsZVTtWD+nFNajWaUWPxmK3NQFi6fA64QovXQp1/XJUkt8cKmCMswEGijrnJq98jvjGpsIQ9i8vcZCXoLlDN/wJDlg9+6w== kps.18.1999@gmail.com
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  D[K[7mssh -T git@github.com[27mssh -T git@github.com
+[?2004lThe authenticity of host 'github.com (140.82.114.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Host key verification failed.
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m ssh -T git@github.com
+[?2004lThe authenticity of host 'github.com (140.82.113.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi subbukp! You've successfully authenticated, but GitHub does not provide shell access.
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m (reverse-i-search)`': [Kg': ssh -T git@[7mg[27mithub.comi': ssh -T git@[7mgi[27mthub.comt': ssh -T git@[7mgit[27mhub.com ': [7mgit [27mremote origin https://github.com/subbukp/mcp_try.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m git [C[C[C[C[C[C[C[C[C[C[C[1@a[1@d[1@d[1@ 
+[?2004l[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git status
+[?2004lOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_logout[m
+	[31m.bash_profile[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.config/[m
+	[31m.local/[m
+	[31m.profile[m
+	[31m.roo-coder/[m
+	[31m.ssh/[m
+	[31m.terminal_logs/[m
+	[31m.wget-hsts[m
+	[31mREADME.md[m
+	[31mflight-booking-server/[m
+	[31mmcp-client/[m
+	[31mvenv/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git checkout -b clinet
+[?2004lSwitched to a new branch 'clinet'
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclinet[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git checkout -b clinet[C[C[1Pet[Cnt
+[?2004lSwitched to a new branch 'client'
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git status
+[?2004lOn branch client
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_logout[m
+	[31m.bash_profile[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.config/[m
+	[31m.local/[m
+	[31m.profile[m
+	[31m.roo-coder/[m
+	[31m.ssh/[m
+	[31m.terminal_logs/[m
+	[31m.wget-hsts[m
+	[31mREADME.md[m
+	[31mflight-booking-server/[m
+	[31mmcp-client/[m
+	[31mvenv/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  [K[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git add .
+[?2004lerror: 'flight-booking-server/' does not have a commit checked out
+fatal: adding files failed
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m [7mgit rm --cached flight-booking-server[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit rm --cached flight-booking-server
+[A
+[?2004lfatal: pathspec 'flight-booking-server' did not match any files
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m git rm --cached flight-booking-server/
+[?2004lfatal: pathspec 'flight-booking-server/' did not match any files
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m ls
+[?2004lREADME.md  [0m[01;34mcode[0m  [01;34mflight-booking-server[0m  [01;34mmcp-client[0m  [01;34mvenv[0m
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  lsgit rm --cached flight-booking-server/[K[Kr/
+[?2004lfatal: pathspec 'flight-booking-server/' did not match any files
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m cd flight-booking-server/l
+[?2004lbash: cd: flight-booking-server/l: No such file or directory
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m cd flight-booking-server/l[K
+[?2004l[?2004h
+[1;36mflight-booking-server[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  ls
+[?2004lREADME.md  [0m[01;34m__pycache__[0m  main.py  pyproject.toml  server.py  uv.lock
+[?2004h
+[1;36mflight-booking-server[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  ls -la
+[?2004ltotal 104
+drwxrwxr-x 5 lab-user lab-user  4096 Jul 31 05:35 [0m[01;34m.[0m
+drwxr-x--- 1 lab-user lab-user  4096 Jul 31 05:47 [01;34m..[0m
+drwxrwxr-x 7 lab-user lab-user  4096 Jul 31 05:32 [01;34m.git[0m
+-rw-rw-r-- 1 lab-user lab-user   109 Jul 31 05:32 .gitignore
+-rw-rw-r-- 1 lab-user lab-user     5 Jul 31 05:32 .python-version
+drwxrwxr-x 4 lab-user lab-user  4096 Jul 31 05:32 [01;34m.venv[0m
+-rw-rw-r-- 1 lab-user lab-user     0 Jul 31 05:32 README.md
+drwxr-xr-x 2 lab-user lab-user  4096 Jul 31 05:35 [01;34m__pycache__[0m
+-rw-rw-r-- 1 lab-user lab-user    99 Jul 31 05:32 main.py
+-rw-rw-r-- 1 lab-user lab-user   192 Jul 31 05:32 pyproject.toml
+-rw-r--r-- 1 lab-user lab-user  2629 Jul 31 05:32 server.py
+-rw-rw-r-- 1 lab-user lab-user 59797 Jul 31 05:32 uv.lock
+[?2004h
+[1;36mflight-booking-server[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  rm -rf .git
+[?2004l[?2004h
+[1;36m~/flight-booking-server[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  cd ..
+[?2004l[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  ls
+[?2004lREADME.md  [0m[01;34mcode[0m  [01;34mflight-booking-server[0m  [01;34mmcp-client[0m  [01;34mvenv[0m
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  ls -la
+[?2004ltotal 92
+drwxr-x--- 1 lab-user lab-user 4096 Jul 31 05:47 [0m[01;34m.[0m
+drwxr-xr-x 1 root     root     4096 Jul 22 09:48 [01;34m..[0m
+-rw-r--r-- 1 lab-user lab-user  220 Mar 31  2024 .bash_logout
+-rw-r--r-- 1 lab-user lab-user  768 Jul 31 05:32 .bash_profile
+-rw-r--r-- 1 lab-user lab-user 3947 Jul 22 09:49 .bashrc
+drwxrwxr-x 5 lab-user lab-user 4096 Jul 31 05:34 [01;34m.cache[0m
+drwx------ 1 lab-user lab-user 4096 Jul 22 09:48 [01;34m.claude[0m
+drwxr-xr-x 1 lab-user lab-user 4096 Jul 31 05:16 [01;34m.config[0m
+drwxr-xr-x 7 lab-user lab-user 4096 Jul 31 05:50 [01;34m.git[0m
+drwxr-xr-x 1 lab-user lab-user 4096 Jul 22 09:48 [01;34m.local[0m
+-rw-r--r-- 1 lab-user lab-user  807 Mar 31  2024 .profile
+drwxrwxr-x 3 lab-user lab-user 4096 Jul 31 05:33 [01;34m.roo-coder[0m
+drwx------ 2 lab-user lab-user 4096 Jul 31 05:48 [01;34m.ssh[0m
+drwxr-xr-x 1 lab-user lab-user 4096 Jul 31 05:34 [01;34m.terminal_logs[0m
+-rw-rw-r-- 1 lab-user lab-user  180 Jul 22 09:48 .wget-hsts
+-rw-rw-r-- 1 lab-user lab-user  334 Jul 19 08:49 README.md
+drwxr-xr-x 1 lab-user lab-user 4096 Jul 22 09:49 [01;34mcode[0m
+drwxrwxr-x 4 lab-user lab-user 4096 Jul 31 05:51 [01;34mflight-booking-server[0m
+drwxrwxr-x 4 lab-user lab-user 4096 Jul 31 05:32 [01;34mmcp-client[0m
+drwxrwxr-x 5 lab-user lab-user 4096 Jul 31 05:33 [01;34mvenv[0m
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  git add .
+[?2004lerror: 'mcp-client/' does not have a commit checked out
+fatal: adding files failed
+[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;31m✖[0m cd mcp-client/
+[?2004l[?2004h
+[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  ls
+[?2004lREADME.md        complete_client.py     main.py         roots_client.py     tools_client.py
+basic_client.py  elicitation_client.py  pyproject.toml  sampling_client.py  uv.lock
+[?2004h
+[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  ls -la
+[?2004ltotal 140
+drwxrwxr-x 4 lab-user lab-user  4096 Jul 31 05:32 [0m[01;34m.[0m
+drwxr-x--- 1 lab-user lab-user  4096 Jul 31 05:47 [01;34m..[0m
+drwxrwxr-x 7 lab-user lab-user  4096 Jul 31 05:32 [01;34m.git[0m
+-rw-rw-r-- 1 lab-user lab-user   109 Jul 31 05:32 .gitignore
+-rw-rw-r-- 1 lab-user lab-user     5 Jul 31 05:32 .python-version
+drwxrwxr-x 4 lab-user lab-user  4096 Jul 31 05:32 [01;34m.venv[0m
+-rw-rw-r-- 1 lab-user lab-user     0 Jul 31 05:32 README.md
+-rw-r--r-- 1 lab-user lab-user  2136 Jul 31 05:32 basic_client.py
+-rw-r--r-- 1 lab-user lab-user 10215 Jul 31 05:32 complete_client.py
+-rw-r--r-- 1 lab-user lab-user  7189 Jul 31 05:32 elicitation_client.py
+-rw-rw-r-- 1 lab-user lab-user    88 Jul 31 05:32 main.py
+-rw-rw-r-- 1 lab-user lab-user   184 Jul 31 05:32 pyproject.toml
+-rw-r--r-- 1 lab-user lab-user  4230 Jul 31 05:32 roots_client.py
+-rw-r--r-- 1 lab-user lab-user  6315 Jul 31 05:32 sampling_client.py
+-rw-r--r-- 1 lab-user lab-user  5287 Jul 31 05:32 tools_client.py
+-rw-rw-r-- 1 lab-user lab-user 55248 Jul 31 05:32 uv.lock
+[?2004h
+[1;36mmcp-client[0m on [1;35m [0m[1;35mmaster[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  cd [K[K[Krm -rf .git
+[?2004l[?2004h
+[1;36m~/mcp-client[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  cd ..
+[?2004l[?2004h
+[1;36m~[0m on [1;35m [0m[1;35mclient[0m [1;31m[[0m[1;31m?[0m[1;31m][0m [1;32m➜[0m  cd ..rm -rf .git[5Pls -la[Kcd mcp-client/[5Pgit add .
+[?2004lm     n [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     I [2m    [0m
+[2;36m     [0m     D [2m    [0m
+[2;36m     [0m     : [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     b [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     7 [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[32mINFO[0m:     127.0.0.1:51612 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51616 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:51630 - "[1mGET /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:51616 - "[1mPOST /mcp HTTP/1.1[0m" [32m202 Accepted[0m
+[32mINFO[0m:     127.0.0.1:51630 - "[1mGET /mcp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:51632 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:51632 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=62647;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     T [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:51640 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:51640 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=455571;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:51648 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:51648 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=728155;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     P [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:51656 - "[1mDELETE /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m T ]8;id=623056;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/streamable_http.py\[2mstr…[0m]8;;\
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     : [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     b [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     7 [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[32mINFO[0m:     127.0.0.1:51656 - "[1mDELETE /mcp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54014 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[2;36m[07…[0m[2;36m [0m[34mINFO[0m C ]8;id=185577;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/streamable_http_manager.py\[2mstr…[0m]8;;\
+[2;36m05:…[0m[2;36m [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     w [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     w [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     h [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     I [2m    [0m
+[2;36m     [0m     D [2m    [0m
+[2;36m     [0m     : [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     b [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m     7 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     b [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[32mINFO[0m:     127.0.0.1:54014 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54020 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54032 - "[1mGET /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54020 - "[1mPOST /mcp HTTP/1.1[0m" [32m202 Accepted[0m
+[32mINFO[0m:     127.0.0.1:54032 - "[1mGET /mcp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54044 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54044 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=638734;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     T [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54056 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54056 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=694314;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54058 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54058 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=564056;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     P [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54064 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54064 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=706668;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     C [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     T [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54076 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54076 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=508170;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     C [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     T [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54090 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54090 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=176356;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54092 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54092 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=624648;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     G [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     P [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54102 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54102 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=48141;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     G [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     P [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54118 - "[1mDELETE /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m T ]8;id=683512;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/streamable_http.py\[2mstr…[0m]8;;\
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     : [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     b [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m     7 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     b [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[32mINFO[0m:     127.0.0.1:54118 - "[1mDELETE /mcp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54130 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[2;36m[07…[0m[2;36m [0m[34mINFO[0m C ]8;id=528794;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/streamable_http_manager.py\[2mstr…[0m]8;;\
+[2;36m05:…[0m[2;36m [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     w [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     w [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     h [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     I [2m    [0m
+[2;36m     [0m     D [2m    [0m
+[2;36m     [0m     : [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     7 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     b [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     7 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[32mINFO[0m:     127.0.0.1:54130 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54132 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54140 - "[1mGET /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54132 - "[1mPOST /mcp HTTP/1.1[0m" [32m202 Accepted[0m
+[32mINFO[0m:     127.0.0.1:54140 - "[1mGET /mcp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:54146 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54146 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=77726;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     T [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54154 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54154 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=608146;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54170 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54170 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=969361;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     L [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     P [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54180 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54180 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=544329;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     C [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     T [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54194 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54194 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=384160;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     C [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     T [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     l [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54198 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54198 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=261277;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     d [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54204 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54204 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=635267;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     G [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     P [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54220 - "[1mPOST /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[32mINFO[0m:     127.0.0.1:54220 - "[1mPOST /mcp HTTP/1.1[0m" [32m200 OK[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m P ]8;id=495462;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mser…[0m]8;;\
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     y [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     G [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     P [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     p [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     R [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     q [2m    [0m
+[2;36m     [0m     u [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[32mINFO[0m:     127.0.0.1:54222 - "[1mDELETE /mcp/ HTTP/1.1[0m" [33m307 Temporary Redirect[0m
+[2;36m    [0m[2;36m [0m[34mINFO[0m T ]8;id=734821;file:///home/lab-user/flight-booking-server/.venv/lib/python3.12/site-packages/mcp/server/streamable_http.py\[2mstr…[0m]8;;\
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     r [2m    [0m
+[2;36m     [0m     m [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     t [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     g [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     e [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     s [2m    [0m
+[2;36m     [0m     i [2m    [0m
+[2;36m     [0m     o [2m    [0m
+[2;36m     [0m     n [2m    [0m
+[2;36m     [0m     : [2m    [0m
+[2;36m     [0m       [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     7 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     3 [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     b [2m    [0m
+[2;36m     [0m     5 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     a [2m    [0m
+[2;36m     [0m     1 [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[2;36m     [0m     c [2m    [0m
+[2;36m     [0m     6 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     8 [2m    [0m
+[2;36m     [0m     4 [2m    [0m
+[2;36m     [0m     f [2m    [0m
+[2;36m     [0m     9 [2m    [0m
+[2;36m     [0m     7 [2m    [0m
+[2;36m     [0m     0 [2m    [0m
+[2;36m     [0m     2 [2m    [0m
+[32mINFO[0m:     127.0.0.1:54222 - "[1mDELETE /mcp HTTP/1.1[0m" [32m200 OK[0m

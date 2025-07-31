@@ -1,0 +1,60 @@
+{
+    "workbench.startupEditor": "readme",
+    "scm.countBadge": "off",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorCustomizations": {
+          "terminal.background": "#282a36",
+          "terminal.foreground": "#eff0eb",
+          "terminal.ansiBlack": "#282a36",
+          "terminal.ansiRed": "#ff5c57",
+          "terminal.ansiGreen": "#5af78e",
+          "terminal.ansiYellow": "#f3f99d",
+          "terminal.ansiBlue": "#57c7ff",
+          "terminal.ansiMagenta": "#ff6ac1",
+          "terminal.ansiCyan": "#9aedfe",
+          "terminal.ansiWhite": "#f1f1f0",
+          "terminal.ansiBrightBlack": "#686868",
+          "terminal.ansiBrightRed": "#ff5c57",
+          "terminal.ansiBrightGreen": "#5af78e",
+          "terminal.ansiBrightYellow": "#f3f99d",
+          "terminal.ansiBrightBlue": "#57c7ff",
+          "terminal.ansiBrightMagenta": "#ff6ac1",
+          "terminal.ansiBrightCyan": "#9aedfe",
+          "terminal.ansiBrightWhite": "#eff0eb"
+    },
+    "debug.internalConsoleOptions": "neverOpen",
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.activityBar.visible": true,
+    "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/bin/bash",
+      "args": ["-c", "cd ~ && /usr/bin/script -q -f /home/lab-user/.terminal_logs/terminal.log"]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.sendKeybindingsToShell": true,
+    "activitusbar.views": [
+    {
+      "name": "explorer",
+      "codicon": "files"
+    }
+  ],
+  "workbench.panel.defaultLocation": "bottom",
+  "editor.fontSize": 18,
+  "terminal.integrated.fontSize": 15,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.enablePreview": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.emptyWindow": false,
+  "files.exclude": {
+    "**/{.terminal_logs,.config,.ssh,.oh-my-zsh,.cache,.local,.aws,.claude}": true,
+    "**/{.bashrc,.profile,.zshrc}": true,
+    "**/claude-files": true,
+    "**/credentials.json": true,
+    "**/.credentials.json": true,
+    "**/.claude.json": true,
+    "**/.claude.json.backup": true
+  }
+}

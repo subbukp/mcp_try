@@ -1,0 +1,109 @@
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[2025-07-31T05:33:54.001Z] error Failed to get latest version [38;2;140;140;140m{"error":"https://api.github.com/repos/coder/code-server/releases/latest: 403"}[0m
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[2025-07-31T05:37:54.661Z] error Failed to get latest version [38;2;140;140;140m{"error":"https://api.github.com/repos/coder/code-server/releases/latest: 403"}[0m
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 37
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 38
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 39
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 40
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 41
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 42
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 43
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 44
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 45
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 46
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 47
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 48
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 49
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 50
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 51
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 52
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 53
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 54
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 55
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 56
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 57
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 58
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 59
+[05:37:56] RequestStore#acceptReply was called without receiving a matching request 60
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 61
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 62
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 63
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 64
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 65
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 66
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 67
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 68
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 69
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 70
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 71
+[05:37:58] RequestStore#acceptReply was called without receiving a matching request 72
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 73
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 74
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 75
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 76
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 77
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 78
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 79
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 80
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 81
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 82
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 83
+[05:39:25] RequestStore#acceptReply was called without receiving a matching request 84
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[2025-07-31T05:40:13.257Z] error Failed to get latest version [38;2;140;140;140m{"error":"https://api.github.com/repos/coder/code-server/releases/latest: 403"}[0m
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 85
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 86
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 87
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 88
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 89
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 90
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 91
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 92
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 93
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 94
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 95
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 96
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 97
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 98
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 99
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 100
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 101
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 102
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 103
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 104
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 105
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 106
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 107
+[05:40:16] RequestStore#acceptReply was called without receiving a matching request 108
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 109
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 110
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 111
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 112
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 113
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 114
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 115
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 116
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 117
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 118
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 119
+[05:40:17] RequestStore#acceptReply was called without receiving a matching request 120
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 121
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 122
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 123
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 124
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 125
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 126
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 127
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 128
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 129
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 130
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 131
+[05:40:20] RequestStore#acceptReply was called without receiving a matching request 132
+[05:51:15] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[05:51:15] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[05:51:49] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[05:51:49] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

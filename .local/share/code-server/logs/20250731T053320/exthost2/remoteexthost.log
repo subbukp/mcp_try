@@ -1,0 +1,31 @@
+2025-07-31 05:37:58.669 [info] Extension host with pid 4463 started
+2025-07-31 05:37:58.670 [error] Error: EEXIST: file already exists, open '/home/lab-user/.local/share/code-server/User/workspaceStorage/-3dc3e95f/vscode.lock'
+2025-07-31 05:37:58.670 [info] Lock '/home/lab-user/.local/share/code-server/User/workspaceStorage/-3dc3e95f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-07-31 05:37:58.670 [info] Lock '/home/lab-user/.local/share/code-server/User/workspaceStorage/-3dc3e95f/vscode.lock': The lock does not look stale, elapsed: 212 ms, giving up.
+2025-07-31 05:37:58.671 [info] Lock '/home/lab-user/.local/share/code-server/User/workspaceStorage/-3dc3e95f-1/vscode.lock': Lock acquired.
+2025-07-31 05:37:59.015 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onWebviewPanel:markdown.preview'
+2025-07-31 05:37:59.259 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-07-31 05:37:59.621 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-31 05:38:00.061 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-31 05:38:00.061 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-31 05:38:00.477 [info] Eager extensions activated
+2025-07-31 05:38:00.477 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-31 05:38:00.478 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-31 05:38:00.478 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onStartupFinished'
+2025-07-31 05:38:01.661 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-31 05:38:01.661 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-31 05:38:01.783 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-07-31 05:39:26.658 [info] Extension host terminating: received terminate message from renderer
+2025-07-31 05:39:26.658 [info] Lock '/home/lab-user/.local/share/code-server/User/workspaceStorage/-3dc3e95f-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-07-31 05:39:26.676 [error] Canceled: Canceled
+	at new FL (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117369)
+	at a4.U (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:121980)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:119474)
+	at FI.setValue (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:14272)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:14896
+	at qr.a (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:15014)
+	at qr.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75790)
+	at qr.g (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75774)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2025-07-31 05:39:26.676 [info] Extension host with pid 4463 exiting with code 0

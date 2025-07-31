@@ -1,0 +1,14 @@
+{
+  "providerProfiles": {
+    "currentApiConfigName": "kodekey-profile",
+    "apiConfigs": {
+      "kodekey-profile": {
+        "apiProvider": "openai",
+        "id": "kodekey-profile",
+        "openAiApiKey": "Sk-kkAI-3ade70850bb8f9ec338b1fbbb10c627f5ac38d3b7b2768a211cf6dc6b0bce46bkk_5piecycraob42so7-kk4779c16e",
+        "openAiModelId": "deepseek/deepseek-chat-v3-0324:free",
+        "openAiBaseUrl": "https://kodekey.ai.kodekloud.com/v1"
+      }
+    }
+  }
+}
